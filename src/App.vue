@@ -22,6 +22,9 @@ import Portfolio from './components/Portfolio.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
 import 'swiper/swiper-bundle.css';
+import ecImage from '@/assets/img/ec.png';
+import porImage from '@/assets/img/por.png';
+import taskImage from '@/assets/img/task.png';
 
 
 const sections = ['Home', 'About', 'Portfolio', 'Contact']
@@ -30,17 +33,17 @@ const projects = [
   {
     title: 'E-commerce Platform',
     description: 'A full-stack e-commerce solution with Vue and Node.js',
-    image: '../src/assets/img/ec.png',
+    image: ecImage, // Use imported image
   },
   {
     title: 'Portfolio Website',
     description: 'A responsive portfolio website using Vue and Tailwind CSS',
-    image: '../src/assets/img/por.png',
+    image: porImage, // Use imported image
   },
   {
     title: 'Task Management App',
     description: 'A Vue.js web app for task management and productivity',
-    image: '../src/assets/img/task.png',
+    image: taskImage, // Use imported image
   },
 ]
 
