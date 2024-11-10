@@ -22,9 +22,9 @@ import Portfolio from './components/Portfolio.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
 import 'swiper/swiper-bundle.css';
-import ecImage from '@/assets/img/ec.png';
-import porImage from '@/assets/img/por.png';
-import taskImage from '@/assets/img/task.png';
+import ecImage from './assets/img/ec.png';
+import porImage from './assets/img/por.png';
+import taskImage from './assets/img/task.png';
 
 
 const sections = ['Home', 'About', 'Portfolio', 'Contact']
