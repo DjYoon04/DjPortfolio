@@ -24,7 +24,7 @@
         src="/img/Designer.png" 
         alt="Designer Illustration" 
         class="w-full h-auto rounded-lg transition duration-300 ease-in-out hover:scale-105"
-        />
+        /> <!--ambot-->
     </div>
     </div>
 
