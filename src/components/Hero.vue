@@ -12,7 +12,7 @@
         <p class="text-xl mb-6 text-[#FFFFFF]">A Web Designer & Digital Artist passionate about creating illustrations and unique web experiences.</p>
         <a 
           href="#portfolio" 
-          class="text-xl inline-block px-8 py-4 text-[#FFFFFF] bg-[#522B5B] hover:bg-[#7ef4de] text-[#FBE4D8] hover:text-[#1e1d1f] rounded-full transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-[#854F6C]/30 font-bold"
+          class="text-3xl inline-block px-8 py-4 text-[#FFFFFF] bg-[#522B5B] hover:bg-[#7ef4de] text-[#FBE4D8] hover:text-[#1e1d1f] rounded-full transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-[#854F6C]/30 font-bold"
         >
           Check My Works
         </a>
@@ -20,11 +20,11 @@
 
       <!-- Right Column with Image -->
       <div class="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-lg">
-      <img 
-        src="/img/Designer.PNG" 
+        <img 
+        src="/img/Designer.png" 
         alt="Designer Illustration" 
         class="w-full h-auto rounded-lg transition duration-300 ease-in-out hover:scale-105"
-      />
+        />
     </div>
     </div>
 
