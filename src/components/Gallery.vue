@@ -1,80 +1,45 @@
 <template>
-   <h2 class="text-4xl font-bold mb-12 text-center">Digital Artworks</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <div class="grid gap-4" v-for="(group, index) in imageGroups" :key="index">
-        <div v-for="(image, imgIndex) in group" :key="imgIndex">
-          <img
-            class="h-auto max-w-full rounded-lg"
-            :src="image.src"
-            :alt="image.alt"
-          />
-        </div>
+  <h2 class="text-4xl font-bold mb-12 text-center">Digital Artworks</h2>
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
+    <div class="grid gap-4" v-for="(group, index) in imageGroups" :key="index">
+      <div 
+        class="flex items-center justify-center h-full gap-4" 
+        v-for="(image, imgIndex) in group" :key="imgIndex">
+        <img
+          class="h-auto max-w-full rounded-lg object-contain transition duration-300 ease-in-out hover:scale-105"
+          :src="image.src"
+          :alt="image.alt"
+        />
       </div>
     </div>
-  </template>
-  
-  <script setup>
-  const imageGroups = [
-    [
-      {
-        src: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg',
-        alt: 'Image 1',
-      },
-      {
-        src: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg',
-        alt: 'Image 2',
-      },
-      {
-        src: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg',
-        alt: 'Image 3',
-      },
-    ],
-    [
-      {
-        src: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg',
-        alt: 'Image 4',
-      },
-      {
-        src: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg',
-        alt: 'Image 5',
-      },
-      {
-        src: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg',
-        alt: 'Image 6',
-      },
-    ],
-    [
-      {
-        src: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg',
-        alt: 'Image 7',
-      },
-      {
-        src: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg',
-        alt: 'Image 8',
-      },
-      {
-        src: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg',
-        alt: 'Image 9',
-      },
-    ],
-    [
-      {
-        src: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg',
-        alt: 'Image 10',
-      },
-      {
-        src: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg',
-        alt: 'Image 11',
-      },
-      {
-        src: 'https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg',
-        alt: 'Image 12',
-      },
-    ],
-  ]
-  </script>
-  
-  <style scoped>
-  /* Add any additional styles here */
-  </style>
-  
+  </div>
+</template>
+
+<script setup>
+const imageGroups = [
+  [
+    { src: 'img/Fushiguro Megumi.png', alt: 'Image 1' },
+    { src: 'img/IMG_0715.PNG', alt: 'Image 2' },
+    { src: 'img/IMG_1179.PNG', alt: 'Image 3' },
+  ],
+  [
+    { src: 'img/IMG_3620.jpeg', alt: 'Image 4' },
+    { src: 'img/IMG_3768.PNG', alt: 'Image 5' },
+    { src: 'img/IMG_4151.PNG', alt: 'Image 6' },
+  ],
+  [
+    { src: 'img/IMG_6452.PNG', alt: 'Image 7' },
+    { src: 'img/IMG_6456.PNG', alt: 'Image 8' },
+    { src: 'img/IMG_4635.PNG', alt: 'Image 9' },
+  ],
+  [
+    { src: 'img/IMG_4611.PNG', alt: 'Image 10' },
+    { src: 'img/IMG_6457.PNG', alt: 'Image 11' },
+    { src: 'img/IMG_6453.PNG', alt: 'Image 12' },
+  ],
+];
+</script>
+
+<style scoped>
+/* Add any additional styles here */
+</style>

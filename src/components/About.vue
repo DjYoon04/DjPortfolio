@@ -1,8 +1,8 @@
 <template>
   <section id="about"
-   class="py-16 sm:py-24 bg-gradient-to-br from-[#190019] to-[#2B124C] text-[#FBE4D8]">
+   class="py-16 sm:py-24 bg-gradient-to-br from-[#190019] to-[#2B124C] text-[#FFFFFF]">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-4xl sm:text-5xl font-bold mb-12 sm:mb-16 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#DFB6B2] to-[#FBE4D8]">
+      <h2 class="text-4xl sm:text-5xl font-bold mb-12 sm:mb-16 text-center bg-clip-text text-[#FFFFFF] bg-gradient-to-r from-[#DFB6B2] to-[#FBE4D8]">
         About Me
       </h2>
       <div class="">

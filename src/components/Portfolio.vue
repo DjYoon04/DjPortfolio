@@ -1,7 +1,7 @@
 <template>
   <section id="portfolio" class="py-20 bg-[#190019]">
     <div class="container mx-auto px-6">
-      <h2 class="text-4xl font-bold mb-12 text-center text-[#DFB6B2]">My Work</h2>
+      <h2 class="text-5xl font-bold mb-12 text-center text-[#FFFFFF]">My Works</h2>
       <div class="relative">
         <div class="overflow-hidden">
           <div

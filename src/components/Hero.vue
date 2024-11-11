@@ -3,25 +3,29 @@
     class="relative min-h-screen flex items-center justify-center bg-[#190019] text-center text-[#FBE4D8] overflow-hidden transition-opacity duration-300"
     :class="{ 'opacity-0': isFadedOut }"
   >
-    <div class="container mx-auto px-6 relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
+    <div class="container mx-auto px-6 relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
       <!-- Left Column -->
-      <div class="flex flex-col items-center mt-12 opacity-0 animate-fadeIn animate-delay-200">
+      <div class="flex flex-col items-center mt-8 opacity-0 animate-fadeIn animate-delay-200">
         <h1 class="text-5xl md:text-6xl font-bold mt-16 md:items-start mb-6 px-6 sliding-color">
           Hi, I’m Djeah Tabada
         </h1>
-        <p class="text-xl mb-6">A Web Designer & Digital Artist passionate about creating illustrations and unique web experiences.</p>
+        <p class="text-xl mb-6 text-[#FFFFFF]">A Web Designer & Digital Artist passionate about creating illustrations and unique web experiences.</p>
         <a 
           href="#portfolio" 
-          class="inline-block px-8 py-4 bg-[#522B5B] hover:bg-[#7ef4de] text-[#FBE4D8] hover:text-[#1e1d1f] rounded-full transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-[#854F6C]/30 font-bold"
+          class="text-xl inline-block px-8 py-4 text-[#FFFFFF] bg-[#522B5B] hover:bg-[#7ef4de] text-[#FBE4D8] hover:text-[#1e1d1f] rounded-full transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-[#854F6C]/30 font-bold"
         >
-          Check My Work
+          Check My Works
         </a>
       </div>
 
       <!-- Right Column with Image -->
-      <div class="flex flex-col items-center opacity-0 animate-fadeIn animate-delay-400">
-        <img src="../assets/img/hero1.png" alt="Illustration" class="max-w-lg h-auto rounded-lg transition duration-300 ease-in-out hover:scale-105" />
-      </div>
+      <div class="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-lg">
+      <img 
+        src="../assets/img/Designer.PNG" 
+        alt="Designer Illustration" 
+        class="w-full h-auto rounded-lg transition duration-300 ease-in-out hover:scale-105"
+      />
+    </div>
     </div>
 
     <!-- Glowing Animated Moving Shapes -->
@@ -68,7 +72,7 @@ onBeforeUnmount(() => {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  animation: slideColor 15s ease-in-out infinite;
+  animation: slideColor 10s ease-in-out infinite;
 }
 
 @keyframes slideColor {
@@ -129,7 +133,7 @@ onBeforeUnmount(() => {
   background: rgba(133, 79, 108, 0.7); /* Mauve shape */
   top: 10%;
   left: 15%;
-  animation-duration: 20s;
+  animation-duration: 10s;
   animation-delay: 2s; /* Start immediately */
 }
 
@@ -139,7 +143,7 @@ onBeforeUnmount(() => {
   background: rgba(37, 8, 87, 0.7); /* Dark purple shape */
   bottom: 15%;
   right: 40%;
-  animation-duration: 20s;
+  animation-duration: 10s;
   animation-delay: 0s; /* Staggered start */
 }
 
@@ -149,7 +153,7 @@ onBeforeUnmount(() => {
   background: rgba(223, 182, 178, 0.7); /* Muted peach shape */
   top: 50%;
   left: 60%;
-  animation-duration: 20s;
+  animation-duration: 10s;
   animation-delay: 3s;
 }
 

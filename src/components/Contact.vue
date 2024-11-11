@@ -1,7 +1,7 @@
 <template>
     <section id="contact" class="py-20 bg-[#2B124C]">
       <div class="container mx-auto px-6">
-        <h2 class="text-4xl font-bold mb-12 text-center">Get in Touch</h2>
+        <h2 class="text-5xl font-bold mb-12 text-center text-[#FFFFFF]">Get in Touch</h2>
         <div class="max-w-3xl mx-auto">
           <form @submit.prevent="submitForm" class="space-y-6">
             <div>
