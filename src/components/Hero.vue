@@ -21,7 +21,7 @@
       <!-- Right Column with Image -->
       <div class="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-lg">
       <img 
-        src="../assets/img/Designer.PNG" 
+        src="/img/Designer.PNG" 
         alt="Designer Illustration" 
         class="w-full h-auto rounded-lg transition duration-300 ease-in-out hover:scale-105"
       />
